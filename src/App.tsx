@@ -78,6 +78,7 @@ function App() {
         phone: phone,
         amount: amount,
         type: "send",
+        user_id: session.user.id, // <--- THE NEW STAMP
       },
     ]);
 
