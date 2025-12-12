@@ -73,12 +73,19 @@ function App() {
     phone: string;
     amount: number;
   }) => {
+    if (!session?.user) {
+      alert("You must be signed in to send money.");
+      return;
+    }
+
+    const userId = session.user.id;
+
     const { error } = await supabase.from("transactions").insert([
       {
         phone: phone,
         amount: amount,
         type: "send",
-        user_id: session.user.id, // <--- THE NEW STAMP
+        user_id: userId, // <--- THE NEW STAMP
       },
     ]);
 
