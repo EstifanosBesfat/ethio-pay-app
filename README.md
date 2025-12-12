@@ -3,7 +3,7 @@
 A secure, full-stack financial dashboard built for the Ethiopian context. This application allows users to send and request money with real-time tracking, powered by a cloud database.
 
 ## 🚀 Live Demo
-[Click here to view the live app](https://your-app-name.vercel.app) 
+[Click here to view the live app](https://ethio-pay-app-89zp.vercel.app/) 
 *(Replace this link after you deploy)*
 
 ## ✨ Features
