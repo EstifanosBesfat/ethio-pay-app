@@ -109,7 +109,7 @@ export default function TransactionCard({
         <button
           type="submit"
           disabled={isLoading}
-          className="mt-6 w-full rounded-lg bg-accent px-6 py-3 font-semibold text-accent-foreground shadow-md shadow-accent/30 transition-all flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed"
+          className="mt-6 w-full rounded-lg bg-green-600 px-6 py-3 font-semibold text-white shadow-md transition-all hover:bg-green-700 hover:shadow-lg disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
         >
           {isLoading ? (
             <>
