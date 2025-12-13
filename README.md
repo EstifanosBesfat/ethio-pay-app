@@ -24,14 +24,13 @@ A secure, full-stack financial dashboard built for the Ethiopian context. This a
    git clone https://github.com/YOUR_USERNAME/ethio-pay-app.git
    cd ethio-pay-app
 2. **Install dependencies**
-```bash
-   npm install
-   Set up Environment Variables
+   ```bash
+      npm install
+3. **Set up Environment Variables**
    Create a .env.local file and add your Supabase keys:
-3. **Env**
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_key
-Run the App
-npm run dev
+   ```bash
+   VITE_SUPABASE_URL=your_supabase_url
+   VITE_SUPABASE_ANON_KEY=your_supabase_key
+
 **👨‍💻 Author**
 Built by Estifanos Besfat as part of the Fullstack AI-Augmented Developer.
